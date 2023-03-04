@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon backend/server",
     "client": "npm start --prefix frontend",
-    "build":"npm i",
     "dev": "concurrently \"npm run start\" \"npm run client\" ",
     "data:import": "node backend/seeder.js",
     "data:destroy": "node backend/seeder.js -d"
