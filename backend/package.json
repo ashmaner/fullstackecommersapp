@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server",
+    "start": "node server",
     "client": "npm start --prefix frontend",
-    "start": "concurrently \"npm dev \" \"npm run client\" ",
+    "dev": "concurrently \"npm start \" \"npm run client\" ",
     "data:import": "node backend/seeder.js",
     "data:destroy": "node backend/seeder.js -d"
   },
