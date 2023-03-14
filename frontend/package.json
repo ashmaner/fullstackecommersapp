@@ -1,7 +1,6 @@
 {
   "name": "frontend",
-    "homepage": "https://ashmaner.github.io/ fullstackecommersapp
-",
+    "homepage": "https://ashmaner.github.io/ fullstackecommersapp",
   "proxy": "http://localhost:8080",
   "version": "0.1.0",
   "private": true,
